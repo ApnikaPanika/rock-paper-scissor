@@ -1,0 +1,13 @@
+body{
+    min-height: 100vh;
+    background-image: url(./Assets/Photos/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.page__game__container{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}

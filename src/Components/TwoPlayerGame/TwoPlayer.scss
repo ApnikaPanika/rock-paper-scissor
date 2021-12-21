@@ -1,0 +1,26 @@
+.game__container {
+    height: 100%;
+}
+
+.game__submit__container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.game__option__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.game__player__options {
+    margin: 20px 0;
+}
+
+.game__what__happened {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 45px;
+    color: white;
+}

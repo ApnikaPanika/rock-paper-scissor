@@ -1,0 +1,72 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+    align-items: center;
+    gap: 10px;
+    font-size:20px;
+}
+
+[hidden] {
+    display: none;
+}
+
+.game__submit__button {
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: wheat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: cadetblue;
+        color: white;
+        transition: 0.3s;
+    }
+}
+
+.SP__small__modal__container{
+    display: flex;
+    gap: 10px;
+}
+
+.SP__modal__button {
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: wheat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: cadetblue;
+        color: white;
+        transition: 0.3s;
+    }
+}

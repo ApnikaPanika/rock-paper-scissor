@@ -1,0 +1,36 @@
+.SPN__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.SPN__legend__photo,
+.SPN__you__photo {
+    width: 150px;
+    border-radius: 7px;
+}
+
+.SPN__you__photo {
+    background-color: white;
+}
+
+.SPN__logo__photo {
+    width: 160px;
+}
+
+.SPN__names {
+    color: white;
+    font-size: 20px;
+}
+
+.SPN__small__containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SPN__score,
+.SPN__logo__text {
+    font-size: 30px;
+    color: white;
+}

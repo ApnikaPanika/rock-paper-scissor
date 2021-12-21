@@ -1,0 +1,44 @@
+.form__modal__window {
+    display: flex;
+    justify-content: center;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.form__small__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.validation__texts {
+    color: red;
+    font-size: 13px;
+}
+
+.form__submit__button {
+    padding: 5px 15px;
+    border-radius: 7px;
+    background-color: wheat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: cadetblue;
+        color: white;
+        transition: 0.3s;
+    }
+}
