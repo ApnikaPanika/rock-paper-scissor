@@ -13,6 +13,7 @@ export const RpslsData = createSlice({
   reducers: {
     infoToStart: (state, action:PayloadAction<infoToStartGame>) => (
       action.payload
+
     ),
   },
 });

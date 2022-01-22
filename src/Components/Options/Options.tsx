@@ -1,5 +1,4 @@
 import { FC } from 'react';
-import { parentPort } from 'worker_threads';
 import './Options.scss';
 import lizard from '../../Assets/Options/lizard.png';
 import paper from '../../Assets/Options/paper.png';

@@ -1,3 +1,7 @@
+# Rock Paper Scissors Lizard Spock game
+
+![Game_GIF](./public/GIF/GameGIF.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
